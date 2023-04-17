@@ -1,0 +1,23 @@
+.not-found-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.return-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.return-button:hover {
+  background-color: #0069d9;
+}

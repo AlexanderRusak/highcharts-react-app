@@ -1,0 +1,42 @@
+.container-mainpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.container-userComponent {
+  margin-top: 16px;
+}
+
+.container-repositories {
+  padding: 0px 24px;
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-input label {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.container-input input {
+  height: 24px;
+  padding: 4px;
+}
+
+.error-message {
+  color: red;
+  font-size: 20px;
+  margin-top: 20px;
+}

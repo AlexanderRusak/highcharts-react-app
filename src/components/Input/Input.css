@@ -1,0 +1,50 @@
+.container-input {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-input label {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.container-input .input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.container-input input {
+  height: 40px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  outline: none;
+}
+
+.container-input input:focus {
+  border-color: #0070f3;
+}
+
+.container-input .clear-button {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.container-input .clear-button:hover {
+  color: #0070f3;
+}
+
+.container-input.focused .input-wrapper .clear-button {
+  color: #000;
+}

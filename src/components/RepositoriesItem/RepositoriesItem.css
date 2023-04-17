@@ -1,0 +1,7 @@
+.repository-item__container {
+  width: 272px;
+  height: 200px;
+  border-bottom: 1px blue solid;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}

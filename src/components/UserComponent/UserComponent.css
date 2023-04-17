@@ -1,0 +1,40 @@
+.container-user {
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 20px;
+  border: 1px blue solid;
+  box-sizing: border-box;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info img {
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+}
+
+.user-names {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  width: 230px;
+  justify-content: space-between;
+
+}
+
+.user-info a {
+  text-decoration: none;
+}
+
+.container-bar {
+  width: calc(100% - 254px);
+  min-width: 245px;
+}
